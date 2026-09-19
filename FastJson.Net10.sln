@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJson.Net10", "src\FastJson.Net10\FastJson.Net10.csproj", "{9B99C484-B1FC-E69A-D4C3-A5DFE528EC7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJson.Net10.Example", "examples\FastJson.Net10.Example\FastJson.Net10.Example.csproj", "{908D4B00-32AC-F57A-DE16-FE887D028B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJson.Net10.Tests", "tests\FastJson.Net10.Tests\FastJson.Net10.Tests.csproj", "{F1358D03-911C-CA65-1118-033BF081463E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJson.Net10.Benchmarks", "benchmarks\FastJson.Net10.Benchmarks\FastJson.Net10.Benchmarks.csproj", "{00082E85-1CBA-EFE0-4825-3686B4AA473D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B99C484-B1FC-E69A-D4C3-A5DFE528EC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B99C484-B1FC-E69A-D4C3-A5DFE528EC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B99C484-B1FC-E69A-D4C3-A5DFE528EC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B99C484-B1FC-E69A-D4C3-A5DFE528EC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908D4B00-32AC-F57A-DE16-FE887D028B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908D4B00-32AC-F57A-DE16-FE887D028B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908D4B00-32AC-F57A-DE16-FE887D028B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908D4B00-32AC-F57A-DE16-FE887D028B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1358D03-911C-CA65-1118-033BF081463E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1358D03-911C-CA65-1118-033BF081463E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1358D03-911C-CA65-1118-033BF081463E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1358D03-911C-CA65-1118-033BF081463E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00082E85-1CBA-EFE0-4825-3686B4AA473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00082E85-1CBA-EFE0-4825-3686B4AA473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00082E85-1CBA-EFE0-4825-3686B4AA473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00082E85-1CBA-EFE0-4825-3686B4AA473D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
